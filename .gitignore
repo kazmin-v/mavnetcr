@@ -1,0 +1,16 @@
+
+lab1/target/classes/Main.class
+lab1/target/classes/RepositPerson.class
+lab1/target/classes/Person.class
+lab1/target/test-classes/PersonTest.class
+out/production/task-1/Main.class
+.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml
+.idea/compiler.xml
+.idea/libraries/Maven__junit_junit_4_12.xml
+.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+lab1/lab1.iml
+mavnetcr.iml

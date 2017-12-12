@@ -1,3 +1,4 @@
+import entities.Person;
 import org.joda.time.LocalDate;
 import org.junit.Test;
 

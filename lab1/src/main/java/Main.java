@@ -1,5 +1,7 @@
+import entities.Person;
 import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
+import repositories.RepositPerson;
 
 import java.util.UUID;
 
@@ -11,12 +13,8 @@ public class Main {
         RepositPerson personRepository = new RepositPerson();
         personRepository.add(petrov);
         personRepository.add(turchinsky);
-        personRepository.add(turchinsky1);
-        System.out.println(personRepository.getByAge(22).length());
-
-        nhfhfhfhdafkdhfak
-
-
+        LocalDate date = new LocalDate(1995,5,5);
+        System.out.println(personRepository.searchByBirthdate(date).getByIndex(0).getLastName());
 
     }
 }
